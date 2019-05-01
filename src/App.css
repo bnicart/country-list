@@ -1,5 +1,14 @@
+body {
+  padding: 5px;
+}
+
+div {
+  display: inline-block;
+}
+
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {

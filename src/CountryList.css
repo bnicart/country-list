@@ -1,0 +1,37 @@
+.country-list-container {
+  width: 100vw;
+}
+
+.country-search {
+  display: block;
+}
+
+.country-search input[type="text"] {
+  width: 30%;
+  border: 1px solid black;
+  text-align: center;
+  border-style: outset;
+  padding: 10px;
+}
+
+.country {
+  margin: 15px;
+  padding: 5px 10px;
+  border: 10px solid #DDD;
+  border-style: outset;
+}
+
+.country > .country-name {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.country-capital {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.center {
+  text-align: center;
+}
