@@ -1,6 +1,6 @@
 {
   "name": "countries",
-  "homepage": "https://bnicart.github.io/countries",
+  "homepage": "https://bnicart.github.io/country-list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,9 +10,9 @@
     "react-scripts": "3.0.0"
   },
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
